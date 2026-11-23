@@ -15,3 +15,21 @@ The necessary hyperparameters for the corresponding dataset may be determined by
 - `sbatch supercomp`
 
 Thereafter, the optimal architechtecture is used in `/sbatch training scripts/model_training.py`. The supercomp file should be modified to reference the current python script.
+
+
+## Citation: 
+If you use this code in your research, please cite the following paper:
+
+@article{aduwenye2025application,
+  title={Application of machine learning for predicting hydrogen-assisted fatigue crack growth},
+  author={Aduwenye, Presley and {\v{S}}ebek, Franti{\v{s}}ek and Yeddu, Hemantha Kumar},
+  journal={Computational Materials Science},
+  volume={260},
+  pages={114207},
+  year={2025},
+  publisher={Elsevier}
+}
+
+Paper: Application of machine learning for predicting hydrogen-assisted fatigue crack growth, Computational Materials Science, Volume 260, Article 114207 (2025).
+
+Citing the original publication helps acknowledge the research behind this implementation and supports the continued development and dissemination of open-source scientific tools.
